@@ -2,8 +2,8 @@ name: Sync upstream
 
 on:
   schedule:
-    # 每天北京时间 / 新加坡时间 06:23 自动同步
-    - cron: "23 22 * * *"
+    # 每天北京时间 / 新加坡时间 03:23 自动同步,排队时间，实际执行时间会晚3小时左右
+    - cron: "23 19 * * *"
   workflow_dispatch:
 
 permissions:
